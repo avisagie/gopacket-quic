@@ -105,6 +105,7 @@ func (a UDPPort) LayerType() gopacket.LayerType {
 var udpPortLayerType = [65536]gopacket.LayerType{
 	53:   LayerTypeDNS,
 	123:  LayerTypeNTP,
+	443:  LayerTypeQUIC, // QUIC over HTTPS port
 	4789: LayerTypeVXLAN,
 	67:   LayerTypeDHCPv4,
 	68:   LayerTypeDHCPv4,

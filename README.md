@@ -1,4 +1,4 @@
-# GoPacket
+# Fork of GoPacket
 
 This library provides packet decoding capabilities for Go.
 See [godoc](https://godoc.org/github.com/google/gopacket) for more details.
@@ -10,3 +10,6 @@ Minimum Go version required is 1.5 except for pcapgo/EthernetHandle, afpacket, a
 
 Originally forked from the gopcap project written by Andreas
 Krennmair <ak@synflood.at> (http://github.com/akrennmair/gopcap).
+
+## QUIC
+This is a first pass at implementing QUIC using claude code.
